@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "hostlevelmoduled",
+    "edgelet-core",
+    "edgelet-http",
+    "edgelet-test-utils",
+    "edgelet-utils",
+    "identity-client",
+    "systemd",
+    "mqtt3",
+]

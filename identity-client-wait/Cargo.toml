@@ -1,0 +1,17 @@
+[package]
+name = "identity-client-wait"
+version = "0.1.0"
+authors = ["hugues"]
+publish = false
+edition = "2018"
+
+[dependencies]
+tokio = "0.1"
+url = { version = "2"}
+
+aziot-identity-common = { git = "https://github.com/Azure/iot-identity-service", branch = "main" }
+aziot-identity-common-http = { git = "https://github.com/Azure/iot-identity-service", branch = "main" }
+aziot-cert-common-http = { git = "https://github.com/Azure/iot-identity-service", branch = "main" }
+aziot-key-common = { git = "https://github.com/Azure/iot-identity-service", branch = "main" }
+
+identity-client = { path = "../identity-client" }
